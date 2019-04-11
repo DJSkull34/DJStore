@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="products.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <link rel="icon" href="Diamond-Sword.ico">
+    <meta charset="utf-8">
+    <title>DJStore</title>
+  </head>
+  <body>
+    <div><h1>Hi, weclome to <a href="http://horrorfuel.com/2018/08/09/police-searching-for-suicide-challenge-creator/" target="_blank">DJStore</a>, please select a product.</h1></div>
+    <b class="title">Catalogue</b>
+    <table id="catalogue">
+      <tr>
+        <th>Item ID</th><th>Product</th><th>Price</th><th>Remaining Stock</th><th>Buy Now!</th>
+      </tr>
+    </table>
+    <br>
+    <p id="outOfStock"></p>
+    <button type="button" id="secret" onclick=trigger()>Push for the Special Products</button>
+    <br><br>
+    <b class="title" id = "cartTitle">Cart</b>
+    <table id="cart">
+      <tr>
+        <th>Item</th><th>Quantity</th><th>Total Cost</th>
+      </tr>
+    </table>
+    <p id = "totalMoney"></p>
+    <br>
+    <button type="button" id="checkout">Checkout</button>
+    <p id="hiddenElement"></p>
+  </body>
+</html>

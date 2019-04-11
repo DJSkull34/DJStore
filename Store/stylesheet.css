@@ -1,0 +1,47 @@
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  inline with others;
+}
+.left{
+  border-right: 1px dashed black;
+}
+th{
+  border-bottom: 1px solid black;
+  padding-right: 10px;
+}
+td{
+  padding:10px 10px 5px 5px;
+}
+.title{
+  font-family: "Comic Sans MS";
+  font-size: 3em;
+}
+b{
+  font-family: "Lucida Console";
+  font-size: 1.1em;
+}
+p{
+  font-family: arial;
+}
+body{
+  background-color: linen;
+}
+h1{
+  font-family: "Times New Roman";
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a{
+  color:black;
+  font-family: "Lucida Console";
+  text-decoration: none;
+}
+a:hover{
+  color:green;
+}
+a:active{
+  color:red;
+}
